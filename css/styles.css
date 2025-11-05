@@ -1,0 +1,55 @@
+.navbar {
+  background-color: #f8f9fa;
+}
+
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-img-top {
+  height: 300px;
+  object-fit: cover; 
+}
+
+footer {
+  background-color: #343a40; 
+  color: white;
+  padding: 1rem 0;
+}
+
+footer a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background-color: rgb(50, 50, 243);
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: rgb(19, 19, 241);
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-body .btn {
+  margin-top: auto;
+  align-self: flex-start; 
+}
+
+.card-body p {
+  margin-bottom: 0.5rem;
+}
+
+.card.shadow-sm {
+  border-radius: 20px; 
+}
